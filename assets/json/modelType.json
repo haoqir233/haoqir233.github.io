@@ -1,0 +1,45 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": [
+        {
+            "bayModelType": "DEF_MODEL",
+            "desc": "默认类型",
+            "ssdBaySpaceList": [],
+            "xpadding": "220",
+            "ypadding": "120"
+        },
+        {
+            "bayModelType": "3/2_MODEL",
+            "desc": "二分之三接线",
+            "ssdBaySpaceList": [
+                {
+                    "id": "5",
+                    "bayType": "DLQ",
+                    "modelType": "3/2_MODEL",
+                    "paddingX": "230",
+                    "paddingY": "220",
+                    "desc": "二分之三接线"
+                }
+            ],
+            "xpadding": "230",
+            "ypadding": "233"
+        },
+        {
+            "bayModelType": "TRANS_MODEL",
+            "desc": "主变",
+            "ssdBaySpaceList": [
+                {
+                    "id": "4",
+                    "bayType": "ZB",
+                    "modelType": "TRANS_MODEL",
+                    "paddingX": "220",
+                    "paddingY": "220",
+                    "desc": "主变"
+                }
+            ],
+            "xpadding": "250",
+            "ypadding": "236"
+        }
+    ]
+}
